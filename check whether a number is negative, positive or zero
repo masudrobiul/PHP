@@ -1,0 +1,20 @@
+<?php
+
+	//Write a PHP program to check whether a number is negative, positive or zero.
+	
+	$num = readline('Input num ' );
+
+	if ($num < 0) {
+		
+		echo "negetive : ". $num;
+	}
+	if ($num>0) {
+		
+		echo "positive : ". $num;
+	}
+	if ($num == 0) {
+
+		echo "zero";
+	}
+	
+?>
