@@ -1,0 +1,20 @@
+<?php
+	
+	//Write a PHP program to find the maximum between two numbers
+	
+	$x = readline('Input x: ');
+	$y = readline('Input y: ');
+	if ($x>$y) {
+		
+		echo "x is maximum ";
+	}
+	else if ($y>$x) {
+		
+		echo "Y is maximum ";
+	}
+	else {
+		echo "both are equal";
+	} 
+
+
+?>
