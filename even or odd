@@ -1,0 +1,16 @@
+<?php
+
+	 //program to check whether a number is even or odd.
+
+	$num = readline('Enter the number : ');
+
+	if ($num%2==0) {
+		
+		echo "even";
+	}
+	else {
+
+		echo "odd";
+	}
+
+?>
