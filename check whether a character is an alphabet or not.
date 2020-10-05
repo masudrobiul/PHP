@@ -1,0 +1,16 @@
+<?php
+
+	 //check whether a character is an alphabet or not.
+	
+	$char = readline('Input char : ');
+	
+	if ($char >= 'a' && $char <= 'z' || $char >= 'A' && $char <= 'Z') {
+		
+		echo "Char is an alphabet";
+	}
+	else {
+		
+		echo "Char is not  an alphabet";
+	}
+
+?>
