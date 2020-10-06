@@ -1,0 +1,21 @@
+<?php
+
+	 //check whether a character is an alphabet or not.
+	
+	$char = readline('Input char : ');
+	
+	if (($char == 'a' || $char == 'e' || $char == 'i' || $char  =='o' || $char  =='u' || $char == 'A' || $char == 'E' || $char == 'I' || $char  =='O' || $char  =='U')) 
+	{
+		
+		echo "Char is a vowel";
+	}
+	elseif (($char >= 'a' && $char <= 'z') || ($char >= 'A' && $char <= 'Z')) {
+		
+		echo "Char is constant";
+	}
+	else {
+
+		echo "its not alphabet";
+	}
+
+?>
