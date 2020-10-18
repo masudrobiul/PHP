@@ -1,0 +1,46 @@
+<?php
+
+/*Write a php program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. 
+Calculate percentage and grade according to following: 
+Percentage >= 90% : Grade A,  
+Percentage >= 80% : Grade B, 
+Percentage >= 70% : Grade C, 
+Percentage >= 60% : Grade D
+Percentage >= 40% : Grade E, 
+Percentage < 40% : Grade F*/
+
+	//$marks = readline('Input marks: ');
+	$P = readline(' ');
+	$C = readline(' ');
+	$B = readline(' ');
+	$M = readline(' ');
+	$CO = readline(' ');
+	$sum = $P + $C + $B + $M + $CO;
+	$percentage = $sum / 5;
+ 	 if($percentage >= '90')
+    {
+        echo "grade A";
+    }
+    else if ($percentage >= '80' && $percentage < '90')
+    {
+        echo "grade B";
+    }
+    else if ($percentage >= '70' && $percentage < '80')
+    {
+        echo "grade C";
+    }
+    else if ($percentage >= '60' && $percentage < '70')
+    {
+    	echo "grade D";
+    }
+    else if ($percentage >= '50' && $percentage < '60')
+    {
+        echo "grade E";
+    }
+    else
+    {
+        echo "grade F";
+    }
+
+
+?>
